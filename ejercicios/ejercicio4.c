@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Crea un tipo de dato estudiante que guarde el nombre del estudiante max. 40 caracteres y su edad
+// Crea un tipo de dato estudiante que guarde el nombre del estudiante max. 40 caracteres y su edad en años
 typedef struct {
     char nombre[40];
     int edad;

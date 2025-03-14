@@ -55,5 +55,8 @@ int main() {
     }
 
     //libera la memoria
+    free(estudiantes);
+    estudiantes = NULL;
+    
     return 0;
 }
